@@ -1,0 +1,42 @@
+body{
+  background-image: linear-gradient(orangered, darkorange, #fec83e);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.highlight {
+  background-color: lime;
+}
+
+.imganimateinvert:hover {
+  filter: invert(1);
+}
+
+.imageanimatesaturate:hover {
+  filter: saturate(4);
+}
+
+.imganimatebright:hover {
+  filter: brightness(120%);
+}
+
+.imganimateblur:hover{
+  filter: blur(5px);
+}
+
+.fixborder{
+  border-color: midnightblue;
+  border-width: 5px;
+}
+
+.titlestyle {
+  color: midnightblue;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.quickstyle{
+  color: midnightblue;
+  font-size: 20px;
+  font-weight: bold;
+}
